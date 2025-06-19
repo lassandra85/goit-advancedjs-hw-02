@@ -1,0 +1,67 @@
+.feedback-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+}
+
+.feedback-form input[type='email'],
+.feedback-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #555;
+  transition: border-color 0.3s ease;
+}
+
+.feedback-form input[type='email']:focus,
+.feedback-form textarea:focus {
+  border-color: #000;
+  outline: none;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.feedback-form button {
+  background-color: #4e75ff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  align-self: flex-start;
+}
+
+.feedback-form button:hover {
+  background-color: #6c8cff;
+  transform: translateY(-2px);
+}
+
+.feedback-form button:active {
+  transform: translateY(0);
+}
