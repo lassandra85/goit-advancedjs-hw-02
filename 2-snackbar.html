@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/goit-advancedjs-hw-01/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snackbar Promises</title>
+  <script type="module" crossorigin src="/goit-advancedjs-hw-01/2-snackbar.js"></script>
+  <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/vendor-njWUcVeN.js">
+  <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/vendor-CUZofXIC.css">
+  <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/styles-BQ7KJW1u.css">
+</head>
+
+<body>
+    <a href="./index.html" class="back-button">← Назад</a>
+
+    <form class="form">
+        <label>
+            Delay (ms)
+            <input type="number" name="delay" required />
+        </label>
+
+        <fieldset>
+            <legend>State</legend>
+            <label>
+                <input type="radio" name="state" value="fulfilled" required />
+                Fulfilled
+            </label>
+            <label>
+                <input type="radio" name="state" value="rejected" required />
+                Rejected
+            </label>
+        </fieldset>
+
+        <button type="submit">Create notification</button>
+    </form>
+
+</body>
+
+</html>
